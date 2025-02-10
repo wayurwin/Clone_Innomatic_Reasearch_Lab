@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="register-container">
+        <h2>Register Now</h2>
+        <form action="#" method="POST">
+            <!-- First Name -->
+            <div class="input-group">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+            </div>
+
+            <!-- Contact Number -->
+            <div class="input-group">
+                <label for="contact">Contact Number</label>
+                <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+            </div>
+
+            <!-- Email Address -->
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Select Course -->
+            <div class="input-group">
+                <label for="course">Select Course</label>
+                <select id="course" name="course" required>
+                    <option value="" disabled selected>Select a course</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="cyber-security">Cyber Security</option>
+                    <option value="ai-ml">Artificial Intelligence & Machine Learning</option>
+                    <option value="cloud-computing">Cloud Computing</option>
+                </select>
+            </div>
+
+            <!-- Select Training Mode -->
+            <div class="input-group">
+                <label for="training-mode">Select Training Mode</label>
+                <select id="training-mode" name="training-mode" required>
+                    <option value="" disabled selected>Select mode</option>
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="register-btn">Register Now</button>
+        </form>
+    </div>
+
+</body>
+</html>
